@@ -1,0 +1,23 @@
+body{
+    margin:0;
+}
+
+header{
+    background:#03a9fa;
+    color: rgb(158, 141, 141);
+    font-family: Anton;
+    text-align: center;
+    font-size: 40px;
+}
+
+.logo {
+    color: rgb(158, 141, 141);
+    font-family: Anton;
+    text-align: center;
+    font-size: 40px;
+}
+
+header input {
+    font-size: 20px;
+    margin: 20px 0px;
+}
