@@ -21,3 +21,11 @@ header input {
     font-size: 20px;
     margin: 20px 0px;
 }
+
+.news_item{
+    padding:25px;
+    box-sizing : 20px;
+    border-bottom : 1px solid gray;
+
+
+}
