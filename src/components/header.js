@@ -1,23 +1,27 @@
-import React ,{Component} from 'react';
+import React ,{ Component } from 'react';
+import JSON from '../db.json';
 
 
-
-
-
-
-
-class  Header extends React.Component{
-
-    InputHandler(event) {
-        console.log(event.target.value);
+class  Header extends Component{ 
+    state ={
+        keywords:'',
+    }
+    inputchangehandler=(event)=>{
+        this.setState({
+            keywords:event.target.value})
 
     }
     
+    
     render(){
+        console.log(JSON);
         return (
-            <header onChange={(e)=>this.InputHandler(e)}>
+            <header >
+            
                 <div>Logo</div>
-                <input/>
+                <input onChange={this.inputchangehandler}/>
+                <div>{this.state.keywords}</div>
+
             </header>
     
     )}
