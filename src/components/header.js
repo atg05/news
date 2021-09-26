@@ -1,5 +1,5 @@
 import React ,{ Component } from 'react';
-import JSON from '../db.json';
+
 
 
 class  Header extends Component{ 
@@ -14,7 +14,7 @@ class  Header extends Component{
     
     
     render(){
-        console.log(JSON);
+        
         return (
             <header >
             
